@@ -1,7 +1,7 @@
 # Multithread Program
 First, your program reads the input image and stores the values of its three color channels in its memory. After extracting this information, the program will apply the desired filters step by step.
 
-  ## -picture preprocess
+  ## -Picture preprocess
 The numeric value of each pixel of the image in RGB mode (the values of the three color channels red, green, and blue) must be stored in the custom data structure.
 
   ## -Smoothing filter
