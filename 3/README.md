@@ -1,13 +1,13 @@
-## Multithread Program
+# Multithread Program
 First, your program reads the input image and stores the values of its three color channels in its memory. After extracting this information, the program will apply the desired filters step by step.
 
-  # -picture preprocess
+  ## -picture preprocess
 The numeric value of each pixel of the image in RGB mode (the values of the three color channels red, green, and blue) must be stored in the custom data structure.
 
-  # -Smoothing filter
+  ## -Smoothing filter
 To apply this filter, you must set the value of each color channel per pixel equal to the average value of your same channel and that pixel neighbor.
 
-  # -Sepia filter
+  ## -Sepia filter
 
 outputRed = (inputRed * 0.393) + (inputGreen * 0.769) + (inputBlue * 0.189)
 outputGreen = (inputRed * 0.349) + (inputGreen * 0.686) + (inputBlue * 0.168)
